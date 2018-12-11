@@ -24,7 +24,6 @@ io.sockets.on('connection',
       // Send it to all clients, including this one
       io.sockets.emit('message', data);
     });
-
     // Listen for this client to disconnect
     socket.on('disconnect', function() {
       console.log("Client has disconnected " + socket.id);
