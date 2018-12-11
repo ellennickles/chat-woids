@@ -156,8 +156,8 @@ Woid.prototype.borders = function() {
 
 Woid.prototype.fontsize = function() {
   var passedTime = millis() - this.timeCheck;
-  if (passedTime > 1000 && this.size > 6) {
-    this.size-= 0.5;
+  if (passedTime > 250 && this.size > 6) {
+    this.size-= 0.1;
     this.timeCheck = millis();
   } else if (this.size == 6) {
     this.size = 6;
