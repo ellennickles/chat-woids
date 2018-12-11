@@ -1,13 +1,13 @@
 // Thank you, Mimi Yin,
 // for teaching me how to make a socket server in Collective Play Spring 2018!
 
-let port = process.env.PORT || 8000;
-let express = require('express');
-let app = express();
-let server = require('http').createServer(app).listen(port, function() {
+var port = process.env.PORT || 8000;
+var express = require('express');
+var app = express();
+var server = require('http').createServer(app).listen(port, function() {
   console.log('Server listening at port: ', port);
 });
-let io = require('socket.io').listen(server);
+var io = require('socket.io').listen(server);
 
 app.use(express.static('public'));
 
