@@ -49,7 +49,7 @@ function draw() {
 // Flocking Simulation from Daniel Shiffman,
 // The Nature of Code: http://natureofcode.com
 // code below from: https://p5js.org/examples/simulate-flocking.html
-// more recent Dec 2018: https://www.youtube.com/watch?v=qtUV-DoSOpk
+// more recent Dec 2018: https://www.youtube.com/watch?v=mhjuuHl6qHM
 // see also: https://www.youtube.com/watch?v=IoKfQrlQ7rA
 
 // Flock object manages the array of all the woids
