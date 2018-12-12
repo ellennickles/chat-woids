@@ -38,7 +38,7 @@ function draw() {
   if (words.length > 0) {
     for (let i = 0; i < words.length; i++) {
       let text = words[i];
-      // let length = text.length; // use this for something?
+      // let length = text.length; // use this for assigning mass?
       var b = new Woid(width / 2, height / 2, text);
       flock.addWoid(b);
       words.splice(0);
